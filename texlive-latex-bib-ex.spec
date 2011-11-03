@@ -1,3 +1,9 @@
+# revision 21537
+# category Package
+# catalog-ctan /info/examples/LaTeX-Bib
+# catalog-date 2011-02-27 13:29:31 +0100
+# catalog-license lppl1.3
+# catalog-version undef
 Name:		texlive-latex-bib-ex
 Version:	20110227
 Release:	1
@@ -183,6 +189,7 @@ example in the book "Bibliografien mit LaTeX" (ISBN 978-
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/08-06-3.ltx
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/08-06-4.ltx
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -193,3 +200,5 @@ example in the book "Bibliografien mit LaTeX" (ISBN 978-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
