@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-bib-ex.doc.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The bundle provides a collection of files containing every
@@ -189,7 +187,6 @@ example in the book "Bibliografien mit LaTeX" (ISBN 978-
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/08-06-3.ltx
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/08-06-4.ltx
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/README
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -200,5 +197,3 @@ example in the book "Bibliografien mit LaTeX" (ISBN 978-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
