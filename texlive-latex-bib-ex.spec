@@ -1,12 +1,12 @@
-# revision 21537
+# revision 25831
 # category Package
 # catalog-ctan /info/examples/LaTeX-Bib
-# catalog-date 2011-02-27 13:29:31 +0100
+# catalog-date 2012-04-02 13:07:24 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-latex-bib-ex
-Version:	20110227
-Release:	2
+Version:	20120402
+Release:	1
 Summary:	Examples for the book Bibliografien mit LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/LaTeX-Bib
@@ -187,6 +187,41 @@ example in the book "Bibliografien mit LaTeX" (ISBN 978-
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/08-06-3.ltx
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/08-06-4.ltx
 %doc %{_texmfdistdir}/doc/latex/latex-bib-ex/README
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/UTF8.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/articles.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/bibA.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/bibB.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/bibtool.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/bibtool2.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/books.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/case.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/case2.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/crossref.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/crossref2.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/de-examples-dw.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo.lbx
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo10.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo11.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo2.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo3.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo4.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo4.bl2
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo5.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo6.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo7.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo8.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/demo9.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/easy.bst
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/examples-dw.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/examples.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/examplesA.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/examplesB.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/klassiker.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/natbib.cfg
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/philosophy-examples.bib
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/plainDemo.bst
+%doc %{_texmfdistdir}/doc/latex/latex-bib-ex/vanBib.bib
 
 #-----------------------------------------------------------------------
 %prep
