@@ -232,3 +232,21 @@ example in the book "Bibliografien mit LaTeX" (ISBN 978-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120402-1
++ Revision: 790641
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110227-2
++ Revision: 753133
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110227-1
++ Revision: 718812
+- texlive-latex-bib-ex
+- texlive-latex-bib-ex
+- texlive-latex-bib-ex
+- texlive-latex-bib-ex
+
