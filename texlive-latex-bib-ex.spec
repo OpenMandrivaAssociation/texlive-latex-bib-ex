@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-latex-bib-ex
-Version:	20120402
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	Examples for the book Bibliografien mit LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/LaTeX-Bib
