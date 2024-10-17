@@ -9,7 +9,7 @@ Version:	20190228
 Release:	2
 Summary:	Examples for the book Bibliografien mit LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/LaTeX-Bib
+URL:		https://www.ctan.org/tex-archive/info/examples/LaTeX-Bib
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-bib-ex.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-bib-ex.doc.tar.xz
